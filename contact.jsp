@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Design by http://www.bluewebtemplates.com
+Released for free under a Creative Commons Attribution 3.0 License
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CONTACT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- CuFon: Enables smooth pretty custom font rendering. 100% SEO friendly. To disable, remove this section -->
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+<!-- CuFon ends -->
+</head>
+<body>
+<div class="main">
+
+  <div class="menu_nav">
+    <div class="menu_nav_resize">
+      <ul>
+        <li><a href="index.jsp">Home</a></li>
+        <li><a href="reg.html">Registration</a></li>
+        <li><a href="user.html">User Login</a></li>
+        <li><a href="admin.jsp">Admin</a></li>
+        <li class="active"><a href="contact.jsp ">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="clr"></div>
+  </div>
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo"><h1><a href="index.jsp">Welcome | Learning Path Recommendation System</a></h1></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2>Contact</h2>
+          <p>If you want to leave a comment, You can provide your comments.</p>
+        </div>
+        <div class="article">
+          <h2>Comment !</h2>
+          <form action="#" method="post" id="sendemail">
+          <ol><li>
+            <label for="name">Name (required)</label>
+            <input id="name" name="name" class="text" />
+          </li><li>
+            <label for="email">Email Address (required)</label>
+            <input id="email" name="email" class="text" />
+          </li><li>
+            <label for="mobile">Mobile No.</label>
+            <input id="mobile" name="Mobile" class="text" />
+          </li><li>
+            <label for="message">Your Comment</label>
+            <textarea id="message" name="message" rows="8" cols="50"></textarea>
+          </li><li>
+            <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+            <div class="clr"></div>
+          </li></ol>
+          </form>
+        </div>
+      </div>
+      <div class="sidebar">
+        	
+        <div class="gadget">
+          <h2 class="star"><span>About Us</span></h2>
+          <ul class="sb_menu">
+           <li>Our system provides users with</li>
+            <li> Recommendations that are</li>
+            <li>appropriate. The system provides </li>
+            <li>recommendations based on the </li>	
+            <li> previous history of the user.</li>
+            
+            </ul>
+        </div>
+      <div class="gadget">
+        
+          <ul class="ex_menu">
+             <img width="250" height="250" src="web1.jpg">
+           
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+  
+      
+      
+</div>
+</body>
+</html>  

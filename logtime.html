@@ -1,0 +1,17 @@
+        <!-- Adding CSS/Stylesheet -->
+        <style>
+            p {
+                text-align: center;
+                font-size: 30px;
+            }
+        </style>
+        <p id="currentTime"></p>
+ 
+        <!-- Adding JavaScript code -->
+        <script>
+             const element = document.getElementById('currentTime');
+              setInterval(function () {
+        const currentDate = new Date();
+        element.innerText = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+      }, 1000);
+        </script>
